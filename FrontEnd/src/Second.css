@@ -1,0 +1,17 @@
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl(0, 0%, 0%);
+    min-height: 25vh;
+    width: 100%;
+  padding: 0;
+}
+
+.containers {
+    color: white;
+   padding:0 auto;
+}
+.containers h1 {
+  color: white;
+}

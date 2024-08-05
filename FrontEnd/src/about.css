@@ -1,0 +1,43 @@
+.introduction-container {
+    background-color: #ffffff;
+    color: #333;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.introduction-container h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.introduction-container h2 {
+    color: #34495e;
+    font-size: 1.75em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.introduction-container h3 {
+    color: #5d6d7e;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.introduction-container p {
+    margin-bottom: 15px;
+}
+
+.introduction-container a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.introduction-container a:hover {
+    text-decoration: underline;
+}

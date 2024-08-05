@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+    .hero-elements {
+      margin-left: 1rem;
+    }
+  
+    .col1 {
+      margin-top: 2rem; /* Adds spacing above the image on smaller screens */
+    }
+  
+    .faq-section {
+      margin-top: 6rem; /* Ensure enough space between sections */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-elements {
+      margin-left: 0.5rem;
+    }
+  
+    button {
+      width: 100%; /* Makes button full-width on small screens */
+      padding: 1rem;
+    }
+  
+    .col1 {
+      margin-top: 2rem; /* Adds spacing above the image on smaller screens */
+    }
+  
+    .faq-section {
+      margin-top: 6rem; /* Ensure enough space between sections */
+    }
+  }
+  
