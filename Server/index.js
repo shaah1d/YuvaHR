@@ -13,7 +13,10 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 app.use(cors({
-    origin: allowedOrigins
+     origin: allowedOrigins,
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    credentials: true,
+    
 }));
 app.use(express.json());
 
