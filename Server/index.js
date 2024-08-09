@@ -5,14 +5,16 @@ const multer = require('multer');
 const nodemailer = require('nodemailer');
 const fs = require('fs');
 const path = require('path');
-
+const allowedOrigins = ['https://yuvahr.com', 'https://www.yuvahr.com'];
 
 if (process.env.NODE_ENV !== 'production') {
     require('dotenv').config();
 }
 
 app.use(cors({
-    origin: 'http://localhost:5173'
+   origin: allowedOrigins,
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    credentials: true,
 }));
 app.use(express.json());
 
