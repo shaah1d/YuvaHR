@@ -5,6 +5,7 @@ const multer = require('multer');
 const nodemailer = require('nodemailer');
 const fs = require('fs');
 const path = require('path');
+const allowedOrigins = ['https://yuvahr.com', 'https://www.yuvahr.com'];
 
 
 if (process.env.NODE_ENV !== 'production') {
@@ -12,7 +13,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 app.use(cors({
-    origin: 'https://yuvahr.com'
+    origin: allowedOrigins
 }));
 app.use(express.json());
 
