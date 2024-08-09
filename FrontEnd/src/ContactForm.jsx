@@ -49,7 +49,7 @@ function ContactForm() {
     }
 
     try {
-      const response = await fetch('https://yuvahr.onrender.com/contact', {
+      const response = await fetch('https://api.yuvahr.com/contact', {
         method: 'POST',
         body: data,
       });
