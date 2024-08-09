@@ -12,7 +12,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 app.use(cors({
-    origin: 'https://yuvahr.vercel.app'
+    origin: 'https://yuvahr.com'
 }));
 app.use(express.json());
 
