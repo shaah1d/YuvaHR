@@ -42,6 +42,6 @@
   width: 100px;
   height: auto;
 }::selection {
-  background: #868686; /* Sets the background color of the selected text */
-  color: white;
+  background: #4aeb6d; /* Sets the background color of the selected text */
+  color: #100f33;
 }
